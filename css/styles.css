@@ -344,3 +344,26 @@ footer{margin-top:3rem;padding:2rem 0;background:transparent;color:var(--muted);
     height: 70px;
   }
 }
+/* Responsive product grid */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* stack vertically */
+  }
+
+  .section {
+    padding: 1.2rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  input, textarea, select, button {
+    font-size: 1rem;
+  }
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
