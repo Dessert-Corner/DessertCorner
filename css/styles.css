@@ -52,6 +52,10 @@ body{
 .hero-image{flex:1;background-image: url('../images/hero.jpg');background-size:cover;background-position:center;border-radius:var(--radius);min-height:340px}
 .hero h1{font-size:2rem;margin:0 0.5rem 0.4rem;color:var(--text)}
 .hero p.lead{margin:0 0.5rem 1rem;color:var(--muted)}
+.hero video, .hero img, .hero gif {
+  background-color: #FFF3E8; /* your brand cream */
+}
+
 
 /* CTA */
 .btn{display:inline-block;padding:0.6rem 1rem;border-radius:8px;text-decoration:none;font-weight:700}
