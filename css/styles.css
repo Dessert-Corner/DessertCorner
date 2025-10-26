@@ -315,3 +315,32 @@ footer{margin-top:3rem;padding:2rem 0;background:transparent;color:var(--muted);
   .brand img{height:48px}
   .hero h1{font-size:1.6rem}
 }
+/* Responsive header for phones */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .nav a {
+    font-size: 0.95rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .brand {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .site-logo {
+    height: 70px;
+  }
+}
